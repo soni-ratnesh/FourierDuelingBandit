@@ -4,7 +4,7 @@ A framework implementing Fourier-sparse methods for efficient Copeland Winner id
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 fourier_copeland_bandits/
@@ -31,7 +31,7 @@ fourier_copeland_bandits/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # 1. Install dependencies
@@ -49,7 +49,7 @@ python tests/test_all.py
 
 ---
 
-## 🔬 Problem Formulation
+## Problem Formulation
 
 ### Dueling Bandits Setup
 
@@ -87,7 +87,7 @@ Properties:
 
 ---
 
-## 📝 Algorithm Pseudocode
+## Algorithm Pseudocode
 
 ### Algorithm 1: Data Generation
 
@@ -289,7 +289,7 @@ RETURN 0
 
 ---
 
-## 📊 Experimental Results
+## Experimental Results
 
 ### Setup
 - **z = 20** features per item
@@ -325,7 +325,7 @@ RETURN 0
 
 ---
 
-## 📖 Usage
+## Usage
 
 ### Basic Usage
 
@@ -362,7 +362,7 @@ python run_experiment.py -N 32 -z 50 -k 5 --runs 30 --max-samples 1000
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all 14 tests
@@ -374,7 +374,7 @@ python -m pytest tests/ -v
 
 ---
 
-## 🍣 SUSHI Dataset
+##  SUSHI Dataset
 
 The project includes support for the **SUSHI Preference Dataset**, a real-world benchmark for preference learning.
 
@@ -451,11 +451,11 @@ Fourier-based dueling bandit algorithm.
 
 ---
 
-## 📄 License
+## License
 
 MIT License
 
-## 🔗 References
+## References
 
 1. Yue et al. "The K-armed Dueling Bandits Problem" (COLT 2012)
 2. Zoghi et al. "Copeland Dueling Bandits" (NeurIPS 2015)
